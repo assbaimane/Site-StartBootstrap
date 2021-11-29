@@ -99,27 +99,25 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 800;
+  font-weight: 500;
   line-height: 1.2;
 }
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
-  font-weight: 800;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
 h2, .h2 {
-  font-size: calc(1rem + 0.9vw);
+  font-size: calc(1.325rem + 0.9vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
     font-size: 2rem;
-    font-weight: bolder;
   }
 }
 
@@ -150,7 +148,6 @@ h6, .h6 {
 }
 
 p {
-  font-size: 10px;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -344,7 +341,7 @@ optgroup,
 textarea {
   margin: 0;
   font-family: inherit;
-  font-size: 8px;
+  font-size: inherit;
   line-height: inherit;
 }
 
@@ -625,7 +622,7 @@ progress {
 .container-lg,
 .container-md,
 .container-sm {
-  width: 60%;
+  width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
@@ -7068,7 +7065,6 @@ textarea.form-control-lg {
   margin: 3rem !important;
 }
 
-
 .m-auto {
   margin: auto !important;
 }
@@ -7277,10 +7273,6 @@ textarea.form-control-lg {
 
 .p-5 {
   padding: 3rem !important;
-}
-
-.p-6 {
-  padding: 4.5rem !important;
 }
 
 .px-0 {
